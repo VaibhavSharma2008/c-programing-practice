@@ -39,7 +39,7 @@ int main(){
         else{
             cout << "enter a valid operator" << endl;
         }
-        cout << "to continue press 'y'. else 'n'";
+        cout << "to continue press 'y'. else 'n'" << std::endl;
         cin >> condition;
 }
     return 0;
