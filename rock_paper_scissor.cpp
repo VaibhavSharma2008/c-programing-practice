@@ -49,8 +49,9 @@ char get_user_choice(){
     std::cout << "1. ROCK" <<std::endl;
     std::cout << "2. PAPER" << std::endl;
     std::cout << "3. SCISSOR" <<std::endl;
-    std::cin >> player_choice;
+    
     do{
+        std::cin >> player_choice;
         switch(player_choice){
             case 1:
                 validity="valid";
